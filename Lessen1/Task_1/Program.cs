@@ -17,9 +17,11 @@ if (a > b)
     max = a;
     min = b;
 }
+    
 else
 {
     max = b;
     min = a;
 }
+
 System.Console.WriteLine($"Максимальное число  {max} Минимальное число {min}");
